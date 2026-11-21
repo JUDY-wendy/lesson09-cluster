@@ -1,0 +1,193 @@
+文档最终检查失败；尚未生成成功收据。失败后停止，未修复重跑。
+
+
+ErrorRecord                 : 无法识别的转义序列。 (156): {
+                                "checked_at": "2026-11-20",
+                                "all_unchanged": true,
+                                "count": 12,
+                                "files": [
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_sim.csv",
+                                    "Hash": "13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_yuan.csv",
+                                    "Hash": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\webapp\\index.html",
+                                    "Hash": "8A57A86A70E6908E91B5E693CBA176AB8AD57F0EE9BA365E2B18ADF22C399E63"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_labels.csv",
+                                    "Hash": "AE041412BEBC5F321AFFDE378CF5C7835F8B6A6681E75F2F70DD49F5ABC9BA97"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_metrics.json",
+                                    "Hash": "8A37DBEFD88751F8AB1066E0B38DA2F1604BA4B6D4FED73D1A1103642A26597B"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\feature_labels.csv",
+                                    "Hash": "3E153AF7FBC01C4F3D6BFB34944EEF58609F3B46C45DA398898CD874E89628E2"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\metrics.json",
+                                    "Hash": "F3CF06812F7A7E68AD77CBD71BC7A14B5BF6BF856B3E770A0218E05ABBD826FC"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\metrics.json",
+                                    "Hash": "10F83C4CBD6428F69E1BA852E010152E26ED71F0EB3A492EDFE90EC5B2BA4231"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\reports\\05_choose_k.log",
+                                    "Hash": "AFC86100C98B77DF68F3F40A45E77288C5186BC7FA3DE35301285C9CFC7BDDA3"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_0.csv",
+                                    "Hash": "14CF7332F701BE72FF075BB7B37A5C2D4B4F614184E5DE4D773C19E16EC3A827"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_2026.csv",
+                                    "Hash": "BBE8165F39D0C82F3703A7B82C3521393B5605612D7E10436AF77D96BEC97DA7"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_42.csv",
+                                    "Hash": "7FFC860AAE0C68996A65FB972C0E513932B59DF9E2128AD6C549B736DE66E4BE"
+                                  }
+                                ]
+                              }
+WasThrownFromThrowStatement : False
+Message                     : 无法识别的转义序列。 (156): {
+                                "checked_at": "2026-11-20",
+                                "all_unchanged": true,
+                                "count": 12,
+                                "files": [
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_sim.csv",
+                                    "Hash": "13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_yuan.csv",
+                                    "Hash": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\webapp\\index.html",
+                                    "Hash": "8A57A86A70E6908E91B5E693CBA176AB8AD57F0EE9BA365E2B18ADF22C399E63"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_labels.csv",
+                                    "Hash": "AE041412BEBC5F321AFFDE378CF5C7835F8B6A6681E75F2F70DD49F5ABC9BA97"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_metrics.json",
+                                    "Hash": "8A37DBEFD88751F8AB1066E0B38DA2F1604BA4B6D4FED73D1A1103642A26597B"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\feature_labels.csv",
+                                    "Hash": "3E153AF7FBC01C4F3D6BFB34944EEF58609F3B46C45DA398898CD874E89628E2"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\metrics.json",
+                                    "Hash": "F3CF06812F7A7E68AD77CBD71BC7A14B5BF6BF856B3E770A0218E05ABBD826FC"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\metrics.json",
+                                    "Hash": "10F83C4CBD6428F69E1BA852E010152E26ED71F0EB3A492EDFE90EC5B2BA4231"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\reports\\05_choose_k.log",
+                                    "Hash": "AFC86100C98B77DF68F3F40A45E77288C5186BC7FA3DE35301285C9CFC7BDDA3"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_0.csv",
+                                    "Hash": "14CF7332F701BE72FF075BB7B37A5C2D4B4F614184E5DE4D773C19E16EC3A827"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_2026.csv",
+                                    "Hash": "BBE8165F39D0C82F3703A7B82C3521393B5605612D7E10436AF77D96BEC97DA7"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_42.csv",
+                                    "Hash": "7FFC860AAE0C68996A65FB972C0E513932B59DF9E2128AD6C549B736DE66E4BE"
+                                  }
+                                ]
+                              }
+Data                        : {System.Management.Automation.Interpreter.InterpretedFrameInfo}
+InnerException              : System.ArgumentException: 无法识别的转义序列。 (156): {
+                                "checked_at": "2026-11-20",
+                                "all_unchanged": true,
+                                "count": 12,
+                                "files": [
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_sim.csv",
+                                    "Hash": "13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\data\\mall_customers_yuan.csv",
+                                    "Hash": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\webapp\\index.html",
+                                    "Hash": "8A57A86A70E6908E91B5E693CBA176AB8AD57F0EE9BA365E2B18ADF22C399E63"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_labels.csv",
+                                    "Hash": "AE041412BEBC5F321AFFDE378CF5C7835F8B6A6681E75F2F70DD49F5ABC9BA97"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\baseline\\baseline_metrics.json",
+                                    "Hash": "8A37DBEFD88751F8AB1066E0B38DA2F1604BA4B6D4FED73D1A1103642A26597B"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\feature_labels.csv",
+                                    "Hash": "3E153AF7FBC01C4F3D6BFB34944EEF58609F3B46C45DA398898CD874E89628E2"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\feature_compare\\metrics.json",
+                                    "Hash": "F3CF06812F7A7E68AD77CBD71BC7A14B5BF6BF856B3E770A0218E05ABBD826FC"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\metrics.json",
+                                    "Hash": "10F83C4CBD6428F69E1BA852E010152E26ED71F0EB3A492EDFE90EC5B2BA4231"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\reports\\05_choose_k.log",
+                                    "Hash": "AFC86100C98B77DF68F3F40A45E77288C5186BC7FA3DE35301285C9CFC7BDDA3"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_0.csv",
+                                    "Hash": "14CF7332F701BE72FF075BB7B37A5C2D4B4F614184E5DE4D773C19E16EC3A827"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_2026.csv",
+                                    "Hash": "BBE8165F39D0C82F3703A7B82C3521393B5605612D7E10436AF77D96BEC97DA7"
+                                  },
+                                  {
+                                    "Path": "D:\\zyl66\\studyclass_related\\浜哄伐鏅鸿兘绋嬪簭璁捐涓庡疄璺礬\lesson09-cluster\\outputs\\practice\\stability\\labels_seed_42.csv",
+                                    "Hash": "7FFC860AAE0C68996A65FB972C0E513932B59DF9E2128AD6C549B736DE66E4BE"
+                                  }
+                                ]
+                              }
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.AppendCharToBuilder(Nullable`1 c, StringBuilder sb)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeString()
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeDictionary(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeList(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeDictionary(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+                                 在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+                                 在 System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+                                 在 Microsoft.PowerShell.Commands.JsonObject.ConvertFromJson(String input, ErrorRecord& error)
+                                 在 Microsoft.PowerShell.Commands.ConvertFromJsonCommand.ConvertFromJsonHelper(String input)
+                                 在 System.Management.Automation.CommandProcessorBase.Complete()
+TargetSite                  : System.Collections.ObjectModel.Collection`1[System.Management.Automation.PSObject] Invoke(System.Collections.IEnumerable)
+StackTrace                  :    在 System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+                                 在 Microsoft.PowerShell.Executor.ExecuteCommandHelper(Pipeline tempPipeline, Exception& exceptionThrown, ExecutionOptions options)
+HelpLink                    : 
+Source                      : System.Management.Automation
+HResult                     : -2146233087
+
+
+

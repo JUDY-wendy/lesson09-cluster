@@ -1,0 +1,5 @@
+Command: python -X utf8 -m py_compile practice\05_ring_research.py
+Exit code: 0
+STDOUT:
+
+STDERR:

@@ -1,0 +1,18 @@
+开始时间（北京时间）： 2026-11-21T12:12:32+08:00
+用户授权：固定同一数据和min_samples=5，仅补测eps=0.24、0.28、0.32，保留全部结果
+不调用make_circles、不拟合StandardScaler、不重训KMeans；直接复用ring_labels.csv的标准化坐标
+Python / sklearn / numpy / pandas / matplotlib： 3.13.12 1.9.0 2.4.6 3.0.3 3.11.0
+脚本SHA256： 0EF9E5C1680D229DE45FB8A1552438ED86FBC1EEDF32B520A702608CBEEEC0D1
+输入ring_labels.csv SHA256： FDA77F61938C443D12A7AF211CD1613BB9F0A27CD1B76DCAA4070C4EAD6FCDDE
+中文字体： Microsoft YaHei
+{"eps": 0.24, "min_samples": 5, "status": "newly_fitted", "n_total": 500, "n_clusters_excluding_noise": 2, "n_noise": 0, "ari_all_500": 1.0, "silhouette_non_noise": 0.11366739548611549, "silhouette_n": 500, "core_samples": 497, "counts": {"0": 250, "1": 250}}
+{"eps": 0.28, "min_samples": 5, "status": "newly_fitted", "n_total": 500, "n_clusters_excluding_noise": 2, "n_noise": 0, "ari_all_500": 1.0, "silhouette_non_noise": 0.11366739548611549, "silhouette_n": 500, "core_samples": 500, "counts": {"0": 250, "1": 250}}
+{"eps": 0.32, "min_samples": 5, "status": "newly_fitted", "n_total": 500, "n_clusters_excluding_noise": 2, "n_noise": 0, "ari_all_500": 1.0, "silhouette_non_noise": 0.11366739548611549, "silhouette_n": 500, "core_samples": 500, "counts": {"0": 250, "1": 250}}
+ eps  min_samples                status  n_total  n_clusters_excluding_noise  n_noise  ari_all_500  silhouette_non_noise  silhouette_n  core_samples                                         counts
+0.20            5 reused_initial_result      500                           4        1     0.898127              0.017084           499           481 {"-1": 1, "0": 250, "1": 222, "2": 22, "3": 5}
+0.24            5          newly_fitted      500                           2        0     1.000000              0.113667           500           497                           {"0": 250, "1": 250}
+0.28            5          newly_fitted      500                           2        0     1.000000              0.113667           500           500                           {"0": 250, "1": 250}
+0.32            5          newly_fitted      500                           2        0     1.000000              0.113667           500           500                           {"0": 250, "1": 250}
+通过核验数： 55
+输出： D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\outputs\practice\research\eps_sensitivity
+EPS_COMPARE_PASS

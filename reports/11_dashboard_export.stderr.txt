@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\practice\04_export_dashboard.py", line 316, in <module>
+    main()
+    ~~~~^^
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\practice\04_export_dashboard.py", line 254, in main
+    choose_k = parse_choose_k()
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\practice\04_export_dashboard.py", line 90, in parse_choose_k
+    raise ValueError("选k日志最大值与说明不一致")
+ValueError: 选k日志最大值与说明不一致

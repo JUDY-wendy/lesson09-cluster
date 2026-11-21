@@ -1,0 +1,162 @@
+{
+  "exported_at": "2026-11-20T15:51:50+08:00",
+  "experiment_note": "稳定性实验：仅 random_state 改变（0 / 42 / 2026），其他 KMeans / StandardScaler 参数与 feature_compare 三特征模型完全一致；特征顺序 income, balance, age。本次各 seed 使用同一标准化特征矩阵，inertia 可以横向比较拟合目标值；其高低不单独证明业务价值或总体稳定性，稳定性结合 ARI 与匹配后变化人数判断。不同特征空间的 inertia 不直接比较。展示标签以 seed42 为参照（current_seed → seed42 匈牙利映射）。",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1"
+  },
+  "dependencies": {
+    "data_file": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\data\\mall_customers_yuan.csv",
+    "feature_compare_metrics": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\outputs\\practice\\feature_compare\\metrics.json",
+    "feature_compare_labels": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\outputs\\practice\\feature_compare\\feature_labels.csv",
+    "yuan_sha256": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+  },
+  "kmeans_params_fixed": {
+    "n_clusters": 3,
+    "init": "k-means++",
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "algorithm": "lloyd",
+    "copy_x": true,
+    "verbose": 0
+  },
+  "standard_scaler_params": {
+    "with_mean": true,
+    "with_std": true,
+    "copy": true
+  },
+  "random_states_used": [
+    0,
+    42,
+    2026
+  ],
+  "features": [
+    "income",
+    "balance",
+    "age"
+  ],
+  "display_mapping_direction": "行=当前seed簇编号，列=seed42簇编号；mapping 为 current_seed → seed42",
+  "display_mappings": {
+    "0": {
+      "0": 1,
+      "1": 2,
+      "2": 0
+    },
+    "42": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "2026": {
+      "0": 1,
+      "1": 2,
+      "2": 0
+    }
+  },
+  "per_seed": {
+    "0": {
+      "cluster_counts": {
+        "0": 113,
+        "1": 51,
+        "2": 136
+      },
+      "inertia": 137.93472519249343,
+      "silhouette": 0.627361019917201,
+      "n_iter": 4,
+      "warnings": []
+    },
+    "42": {
+      "cluster_counts": {
+        "0": 136,
+        "1": 113,
+        "2": 51
+      },
+      "inertia": 137.93472519249343,
+      "silhouette": 0.627361019917201,
+      "n_iter": 4,
+      "warnings": []
+    },
+    "2026": {
+      "cluster_counts": {
+        "0": 113,
+        "1": 51,
+        "2": 136
+      },
+      "inertia": 137.93472519249343,
+      "silhouette": 0.627361019917201,
+      "n_iter": 5,
+      "warnings": []
+    }
+  },
+  "pairwise": [
+    {
+      "pair": "0_vs_42",
+      "seed_a": 0,
+      "seed_b": 42,
+      "ari": 1.0,
+      "matched": 300,
+      "changed": 0,
+      "total": 300,
+      "match_rate": 1.0,
+      "mapping_a_to_b": {
+        "0": 1,
+        "1": 2,
+        "2": 0
+      }
+    },
+    {
+      "pair": "0_vs_2026",
+      "seed_a": 0,
+      "seed_b": 2026,
+      "ari": 1.0,
+      "matched": 300,
+      "changed": 0,
+      "total": 300,
+      "match_rate": 1.0,
+      "mapping_a_to_b": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "pair": "42_vs_2026",
+      "seed_a": 42,
+      "seed_b": 2026,
+      "ari": 1.0,
+      "matched": 300,
+      "changed": 0,
+      "total": 300,
+      "match_rate": 1.0,
+      "mapping_a_to_b": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
+    }
+  ],
+  "seed42_vs_feature_compare_labels": {
+    "ari": 1.0,
+    "mapping_42_to_fc": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "matched": 300,
+    "changed": 0
+  },
+  "notes": [
+    "三次拟合使用同一标准化后的特征矩阵，仅 random_state 改变。",
+    "各 seed 使用同一标准化特征矩阵，inertia 可横向比较拟合目标值；其高低不单独证明业务价值或总体稳定性，稳定性结合 ARI 与匹配后变化人数判断。不同特征空间的 inertia 不直接比较。",
+    "展示映射以 seed42 为参照；同色不代表成员完全相同，只代表在 seed42 的匈牙利匹配下重叠最大。",
+    "seed42 拟合结果与 feature_compare/feature_labels.csv.cluster_3f 已按 customer_id 比对，ARI=1.000000，匹配后变化 0 人（应=0）。",
+    "稳定性判断依据：三对 pairwise ARI 和匹配/变化人数；若都接近 1 / 0 则说明对初始化不敏感。",
+    "不预设任何结论，如实报告。"
+  ]
+}

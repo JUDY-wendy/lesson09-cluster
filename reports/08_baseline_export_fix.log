@@ -1,0 +1,39 @@
+﻿# 基础画像修正版运行日志（2026-11-20 授权后）
+运行时间：2026-11-20 14:46:08
+工作目录：D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+实际命令：& "C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe" -X utf8 "practice\01_baseline_export.py"
+退出码：0
+实际耗时：6.16 秒
+
+===== STDOUT =====
+========================================================================
+预检
+========================================================================
+  yuan SHA256: 060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07
+  yuan 300 行 × 7 列，无缺失
+  合并 300 行，label_D counts = [(0, 126), (1, 50), (2, 124)]
+  D 配置参数：StandardScaler, k=3, seed=42, n_init=10, features=['income', 'balance']
+  重算画像与存储值一致；D 原始单位质心与簇均值一致
+
+中文字体：Microsoft YaHei
+→ baseline_labels.csv 已写
+  导出前核验（基于未四舍五入数据）
+    总人数 300 ✓；占比合计 100.000000% ✓
+    age              总体=32.286667 加权=32.286667 差=0.00e+00 ✓
+    income_wan       总体=17.321667 加权=17.321667 差=0.00e+00 ✓
+    balance_wan      总体=13.812233 加权=13.812233 差=0.00e+00 ✓
+    balance_yuan     总体=138122.333333 加权=138122.333333 差=0.00e+00 ✓
+    product_count    总体=2.050000 加权=2.050000 差=0.00e+00 ✓
+    年龄区间 [18.0, 63.0]，总体均值 32.2867 在内 ✓
+    按原始 cluster 列人数核对 ✓
+→ baseline_profile.csv 已写（按平均收入排序，保留原簇编号）
+→ baseline_metrics.json 已写
+→ baseline_scatter.png 已写
+→ baseline_profile.png 已写
+→ baseline_profile_bars.png 已写
+
+导出完成。
+输出目录: D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\outputs\practice\baseline
+===== STDERR =====
+（空）
+===== END =====

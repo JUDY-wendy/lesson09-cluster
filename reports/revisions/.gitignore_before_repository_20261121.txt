@@ -1,0 +1,13 @@
+# Python及系统临时文件
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+__MACOSX/
+
+# 浏览器自动验收生成的独立profile与冗余网页副本
+outputs/practice/dashboard_browser_qa/edge-profile/
+outputs/practice/dashboard_browser_qa/portable_copy/
+
+# 保留data、正式输出、日志、证据与AI记录，不忽略整个outputs。

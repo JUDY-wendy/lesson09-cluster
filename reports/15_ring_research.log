@@ -1,0 +1,22 @@
+Started: 2026-11-21T11:56:39.0165785+08:00
+Command: C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe -X utf8 practice\05_ring_research.py
+Exit code: 0
+STDOUT:
+生成时间（北京时间）： 2026-11-21T11:56:57+08:00
+Python / sklearn / numpy / pandas / matplotlib： 3.13.12 1.9.0 2.4.6 3.0.3 3.11.0
+脚本SHA256： 54F4062F1F48B3A4EB732F534CDC1597B696106F25DDA5E85A4F3DDBBFA9CAD6
+中文字体： Microsoft YaHei
+make_circles： {'n_samples': 500, 'factor': 0.5, 'noise': 0.04, 'random_state': 42, 'shuffle': True}
+StandardScaler：with_mean=True, with_std=True；两模型使用同一份标准化坐标
+KMeans： {'n_clusters': 2, 'init': 'k-means++', 'random_state': 42, 'n_init': 10, 'max_iter': 300, 'tol': 0.0001, 'algorithm': 'lloyd'}
+DBSCAN（仅此一次，无自动调参）： {'eps': 0.2, 'min_samples': 5, 'metric': 'euclidean'}
+method  n_total  n_clusters_excluding_noise  n_noise  ari_all_500  silhouette  silhouette_n                                      silhouette_scope  inertia_standardized
+KMeans      500                           2        0    -0.001992    0.353455           500                                            all_points            634.229887
+DBSCAN      500                           4        1     0.898127    0.017084           499 exclude_noise_-1; null_if_not_2_to_n_minus_1_clusters                   NaN
+KMeans人数： {'0': 253, '1': 247}
+DBSCAN人数（含-1噪声）： {'-1': 1, '0': 250, '1': 222, '2': 22, '3': 5}
+通过核验数： 23
+已保存： D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\outputs\practice\research
+RING_RESEARCH_PASS
+
+STDERR:

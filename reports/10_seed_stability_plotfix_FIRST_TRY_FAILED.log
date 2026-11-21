@@ -1,0 +1,18 @@
+﻿# 三随机种子稳定性 图面修正（plotfix）运行日志
+运行时间：2026-11-20 15:59:51
+工作目录：D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+实际命令：& "C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe" -X utf8 "__tmp_replot.py"
+退出码：1
+实际耗时：1.06 秒
+
+===== STDOUT =====
+===== STDERR =====
+Traceback (most recent call last):
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\__tmp_replot.py", line 27, in <module>
+    spec.loader.exec_module(mod)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1156, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1214, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\practice\\03_seed_stability.py'
+===== END =====

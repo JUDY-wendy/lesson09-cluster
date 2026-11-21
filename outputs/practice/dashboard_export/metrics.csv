@@ -1,0 +1,7 @@
+﻿config_id,scheme,seed,features,cluster_counts,inertia,silhouette,n_iter,warnings
+two_features_0,two_features,0,income|balance,"[126, 50, 124]",62.79121200455589,0.6902386829838079,3,
+two_features_42,two_features,42,income|balance,"[126, 50, 124]",62.79121200455589,0.6902386829838079,4,
+two_features_2026,two_features,2026,income|balance,"[126, 50, 124]",62.79121200455589,0.6902386829838079,3,
+three_features_0,three_features,0,income|balance|age,"[113, 51, 136]",137.93472519249343,0.627361019917201,4,
+three_features_42,three_features,42,income|balance|age,"[136, 113, 51]",137.93472519249343,0.627361019917201,4,
+three_features_2026,three_features,2026,income|balance|age,"[113, 51, 136]",137.93472519249343,0.627361019917201,5,

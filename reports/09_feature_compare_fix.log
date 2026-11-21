@@ -1,0 +1,67 @@
+﻿# 加入年龄特征对照实验（修复后）运行日志
+运行时间：2026-11-20 15:35:59
+工作目录：D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+实际命令：& "C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe" -X utf8 "practice\02_feature_compare.py"
+退出码：0
+实际耗时：9.11 秒
+
+===== STDOUT =====
+========================================================================
+预检
+========================================================================
+  yuan SHA256: 060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07
+  yuan 300 行 × 7 列
+  baseline labels cluster counts: {0: 126, 1: 50, 2: 124}
+  基础模型参数全部一致：k=3, seed=42, n_init=10, StandardScaler={'with_mean': True, 'with_std': True, 'copy': True}
+  baseline_metrics.json.cluster_counts 与 baseline_labels.csv 一致：{0: 126, 1: 50, 2: 124}
+中文字体：Microsoft YaHei
+
+三特征模型训练：income + balance + age，StandardScaler（特征顺序固定）
+  cluster counts: {0: 136, 1: 113, 2: 51}
+  inertia=137.934725, silhouette=0.627361, n_iter_=4
+
+========================================================================
+对比、导出与核验
+========================================================================
+ARI=0.814160（ARI 不受簇编号置换影响）
+最大重叠匹配：283/300，变化 17 人
+两→三映射 map_2to3 = {0: 0, 1: 2, 2: 1}
+三→两映射 map_3to2 = {0: 0, 2: 1, 1: 2}
+映射是否自反：True
+交叉表（行=两特征，列=三特征）:
+[[123   3   0]
+ [  0   0  50]
+ [ 13 110   1]]
+→ feature_labels.csv 已写
+→ profiles_two_features.csv / profiles_three_features.csv 已写
+→ contingency_table.csv 已写
+→ cluster_mapping.csv 已写（两种方向均保存）
+→ changed_customers.csv 已写（17 行）
+
+导出前核验
+  两模型均覆盖相同 300 个客户 ✓
+  两份画像人数合计均为 300 ✓
+  交叉表行边际 [126  50 124] == 两特征人数 [126  50 124] ✓
+  交叉表列边际 [136 113  51] == 三特征人数 [136 113  51] ✓
+  匹配+变化=300 ✓；变化客户表 17 行 = changed ✓
+  两特征标签与 baseline_labels.csv 逐 customer_id 完全一致 ✓
+  基础模型质心从 baseline_metrics.json 读取：
+   cluster  income_wan  balance_wan   balance_yuan
+0        0    6.105635     1.451667   14516.666667
+1        1   41.583600    48.350200  483502.000000
+2        2   18.935565    12.445565  124455.645161
+→ feature_compare.png 已写
+→ metrics.json 已写
+
+========================================================================
+结果汇总
+========================================================================
+ARI = 0.814160
+最大重叠匹配：283/300，变化 17 人
+两特征 counts: {0: 126, 1: 50, 2: 124}
+三特征 counts: {0: 136, 1: 113, 2: 51}
+三特征 inertia = 137.934725, silhouette = 0.627361, n_iter_ = 4
+映射是否自反：True（仅作记录，不假定自反）
+===== STDERR =====
+（空）
+===== END =====

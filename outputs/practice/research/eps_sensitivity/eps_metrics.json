@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-21T12:12:32+08:00",
+  "script_sha256": "0EF9E5C1680D229DE45FB8A1552438ED86FBC1EEDF32B520A702608CBEEEC0D1",
+  "versions": {
+    "python": "3.13.12",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0"
+  },
+  "authorized_eps": [
+    0.24,
+    0.28,
+    0.32
+  ],
+  "fixed_min_samples": 5,
+  "source_file": "outputs/practice/research/ring_labels.csv",
+  "source_file_sha256": "FDA77F61938C443D12A7AF211CD1613BB9F0A27CD1B76DCAA4070C4EAD6FCDDE",
+  "input_note": "复用原CSV双精度标准化坐标，read_csv float_precision=round_trip；不重生成或标准化",
+  "initial_result_reused": true,
+  "kmeans_retrained": false,
+  "initial_checksums": {
+    "ring_comparison.png": "783ACDAF414F165FA8069DFAA660081F92EB41DC1C1434CA4C023B6297A7B5AA",
+    "ring_labels.csv": "FDA77F61938C443D12A7AF211CD1613BB9F0A27CD1B76DCAA4070C4EAD6FCDDE",
+    "ring_metrics.csv": "DD37A0D1AF987D799A310782AB74E98ECAC25EA1694142B2B08018D324D23E5F",
+    "ring_metrics.json": "FBF4074489E60FEEF620B2915D45DC5C9213B81D0AB6EAB21F280D124A127A68",
+    "outputs/practice/research/validation.json": "1001DA4D4CCC2CFF09872343BCD44B9644818D685247B3E83F33B431CBAB7A87",
+    "practice/05_ring_research.py": "54F4062F1F48B3A4EB732F534CDC1597B696106F25DDA5E85A4F3DDBBFA9CAD6",
+    "reports/15_ring_research.log": "63708B420846C9BB2086BB9F906CF370A9E0E4795AE88BBF2A8221CEBEC82AB4",
+    "data/mall_customers_sim.csv": "13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F",
+    "data/mall_customers_yuan.csv": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07",
+    "student_webapp/results.js": "A9C4788C3D185272C6B50A9D5E190CDCAD4A09AF00DED48F92323C228A71C4FA"
+  },
+  "silhouette_scope": "仅非噪声样本；有效簇数2..n-1时计算，否则null；明确记录保留样本数",
+  "ari_scope": "全部500点，包含噪声；真实环标签仅用于评估",
+  "runs": [
+    {
+      "eps": 0.2,
+      "min_samples": 5,
+      "status": "reused_initial_result",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 4,
+      "n_noise": 1,
+      "ari_all_500": 0.8981270940217935,
+      "silhouette_non_noise": 0.01708423112144309,
+      "silhouette_n": 499,
+      "core_samples": 481,
+      "counts": {
+        "-1": 1,
+        "0": 250,
+        "1": 222,
+        "2": 22,
+        "3": 5
+      }
+    },
+    {
+      "eps": 0.24,
+      "min_samples": 5,
+      "status": "newly_fitted",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 2,
+      "n_noise": 0,
+      "ari_all_500": 1.0,
+      "silhouette_non_noise": 0.11366739548611549,
+      "silhouette_n": 500,
+      "core_samples": 497,
+      "counts": {
+        "0": 250,
+        "1": 250
+      }
+    },
+    {
+      "eps": 0.28,
+      "min_samples": 5,
+      "status": "newly_fitted",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 2,
+      "n_noise": 0,
+      "ari_all_500": 1.0,
+      "silhouette_non_noise": 0.11366739548611549,
+      "silhouette_n": 500,
+      "core_samples": 500,
+      "counts": {
+        "0": 250,
+        "1": 250
+      }
+    },
+    {
+      "eps": 0.32,
+      "min_samples": 5,
+      "status": "newly_fitted",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 2,
+      "n_noise": 0,
+      "ari_all_500": 1.0,
+      "silhouette_non_noise": 0.11366739548611549,
+      "silhouette_n": 500,
+      "core_samples": 500,
+      "counts": {
+        "0": 250,
+        "1": 250
+      }
+    }
+  ],
+  "selection_policy": "保留全部四种eps结果，不以ARI自动选择单一最优eps，不继续搜索",
+  "limitations": "同一玩具数据上的探索性参数对照，不等于独立测试集验证或真实客户聚类效果"
+}

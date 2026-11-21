@@ -1,0 +1,59 @@
+{
+    "checked_at":  "2026-11-21T14:26:01.1688651+08:00",
+    "passed":  true,
+    "document_checks":  [
+                            {
+                                "file":  "README.md",
+                                "local_links":  5,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            },
+                            {
+                                "file":  "progress.md",
+                                "local_links":  18,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            },
+                            {
+                                "file":  "reports\\第九课客户分群自主实践报告.md",
+                                "local_links":  30,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            },
+                            {
+                                "file":  "reports\\independent_research.md",
+                                "local_links":  22,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            },
+                            {
+                                "file":  "ai_logs\\AI使用记录.md",
+                                "local_links":  38,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            },
+                            {
+                                "file":  "ai_logs\\18_报告与提交材料整理.md",
+                                "local_links":  0,
+                                "missing":  [
+
+                                            ],
+                                "replacement_character_found":  false
+                            }
+                        ],
+    "total_local_links":  113,
+    "protected_files_checked":  12,
+    "protected_files_changed":  0,
+    "manual_document_review":  "待本人阅读",
+    "git_push_status":  "尚未操作"
+}

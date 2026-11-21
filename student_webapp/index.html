@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>客户分群实验对照看板 · 第九课</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="results.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<div class="page">
+<header class="hero">
+  <div><p class="eyebrow">第九课 / K-MEANS 实验</p><h1>客户分群实验对照看板</h1>
+  <p class="intro">从同一批客户出发，观察特征与随机种子如何影响分群。</p></div>
+  <div class="source-badge"><span class="status-dot"></span>教学模拟数据<br><small>本地离线 · 预计算结果切换</small></div>
+</header>
+<main>
+<section class="controls card" aria-label="实验配置">
+  <div><label for="featureSelect">模型特征</label>
+  <select id="featureSelect"><option value="two_features">收入 + 余额（两特征）</option><option value="three_features">收入 + 余额 + 年龄（三特征）</option></select></div>
+  <div><label for="seedSelect">随机种子 random_state</label>
+  <select id="seedSelect"><option value="0">0</option><option value="42" selected>42</option><option value="2026">2026</option></select></div>
+  <button id="resetButton" class="button secondary" type="button">恢复默认</button>
+  <p id="configSummary" class="config-summary" aria-live="polite"></p>
+</section>
+<section class="metrics" aria-label="当前配置指标">
+  <article class="metric"><span>客户人数</span><strong id="metricCount">—</strong><small>同一批教学模拟客户</small></article>
+  <article class="metric"><span>簇数 k</span><strong id="metricK">—</strong><small id="metricFeatures">—</small></article>
+  <article class="metric"><span>轮廓系数</span><strong id="metricSilhouette">—</strong><small>在当前标准化特征空间计算</small></article>
+  <article class="metric"><span>当前随机种子</span><strong id="metricSeed">—</strong><small>其他模型参数保持一致</small></article>
+</section>
+<div class="main-grid">
+<section class="card scatter-card">
+  <div class="section-head"><div><p class="eyebrow">01 / 分群分布</p><h2>收入—余额散点图</h2></div><span id="projectionLabel" class="plain-tag"></span></div>
+  <div id="chartLegend" class="legend" aria-label="当前簇图例"></div>
+  <svg id="scatterPlot" viewBox="0 0 760 450" role="img" aria-label="客户收入余额散点图"></svg>
+  <p class="chart-note">每个点是一位客户；悬停查看数值。星标表示簇均值在当前平面的投影。</p>
+  <p class="chart-note" id="colorNote">颜色在当前特征方案内对齐至 seed 42；跨方案同色不代表相同成员。</p>
+</section>
+<aside class="side-column">
+<section class="card"><div class="section-head"><div><p class="eyebrow">02 / 客群画像</p><h2>三群客户，各有特征</h2></div></div>
+<p class="muted">业务名称为数据描述，待本人核对。</p><div id="profileCards"></div></section>
+<section class="card"><p class="eyebrow">03 / 业务解读</p><h2>服务建议，先验证需求</h2>
+<p class="muted">以下是待验证的服务假设，不是已证实的客户需求或风险判断。</p><div id="businessSuggestions"></div></section>
+</aside>
+</div>
+<section class="card evidence-section">
+<div class="section-head"><div><p class="eyebrow">04 / 实验依据</p><h2>把分群结果放回对照实验</h2></div><span class="plain-tag">来自实际运行记录</span></div>
+<div class="tabs" role="tablist" aria-label="实验依据">
+<button type="button" id="tab-age" data-panel="age" role="tab" aria-selected="true">加入年龄前后</button>
+<button type="button" id="tab-stability" data-panel="stability" role="tab" aria-selected="false">随机种子稳定性</button>
+<button type="button" id="tab-k" data-panel="k" role="tab" aria-selected="false">选 k 依据</button>
+</div>
+<div id="evidencePanel" class="evidence-panel" role="tabpanel" aria-labelledby="tab-age"></div>
+</section>
+<section class="download-section card">
+<div><h2>下载当前客户标签</h2><p id="downloadDescription" class="muted"></p></div>
+<button id="downloadButton" class="button primary" type="button">下载当前标签 CSV</button>
+<p class="download-hint">含原始七列、原始簇号、展示簇号和当前配置；CSV 使用 UTF-8 BOM，便于 Excel 打开。</p>
+</section>
+<details class="card provenance"><summary>参数、数据来源与结果边界</summary><div id="provenanceContent"></div></details>
+<div id="pageError" class="error" role="alert" hidden></div>
+</main>
+<footer><span>教学模拟数据 · 网页仅切换预计算结果，不重新训练模型。</span><span>第九课自主实践</span></footer>
+</div>
+</body></html>

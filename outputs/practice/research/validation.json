@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "原客户CSV哈希：data/mall_customers_sim.csv",
+      "passed": true
+    },
+    {
+      "name": "原客户CSV哈希：data/mall_customers_yuan.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖既有结果：ring_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "不覆盖既有结果：ring_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖既有结果：ring_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖既有结果：ring_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "不覆盖既有结果：validation.json",
+      "passed": true
+    },
+    {
+      "name": "本机可用中文字体",
+      "passed": true
+    },
+    {
+      "name": "生成500×2有限坐标",
+      "passed": true
+    },
+    {
+      "name": "生成器两环各250点",
+      "passed": true
+    },
+    {
+      "name": "标准化均值0方差1",
+      "passed": true
+    },
+    {
+      "name": "两模型标签覆盖500点",
+      "passed": true
+    },
+    {
+      "name": "KMeans两簇人数合计500",
+      "passed": true
+    },
+    {
+      "name": "DBSCAN人数含噪声合计500",
+      "passed": true
+    },
+    {
+      "name": "DBSCAN保留点加噪声点等于500",
+      "passed": true
+    },
+    {
+      "name": "ARI范围有效",
+      "passed": true
+    },
+    {
+      "name": "KMeans轮廓系数范围有效",
+      "passed": true
+    },
+    {
+      "name": "DBSCAN非噪声轮廓系数范围有效",
+      "passed": true
+    },
+    {
+      "name": "运行结束原CSV未变：data/mall_customers_sim.csv",
+      "passed": true
+    },
+    {
+      "name": "运行结束原CSV未变：data/mall_customers_yuan.csv",
+      "passed": true
+    },
+    {
+      "name": "落盘CSV行数与ID覆盖",
+      "passed": true
+    },
+    {
+      "name": "落盘真实/预测标签未变",
+      "passed": true
+    },
+    {
+      "name": "落盘坐标精度一致",
+      "passed": true
+    }
+  ],
+  "manual_figure_acceptance": "待本人核对",
+  "files": {
+    "ring_comparison.png": "783ACDAF414F165FA8069DFAA660081F92EB41DC1C1434CA4C023B6297A7B5AA",
+    "ring_labels.csv": "FDA77F61938C443D12A7AF211CD1613BB9F0A27CD1B76DCAA4070C4EAD6FCDDE",
+    "ring_metrics.csv": "DD37A0D1AF987D799A310782AB74E98ECAC25EA1694142B2B08018D324D23E5F",
+    "ring_metrics.json": "FBF4074489E60FEEF620B2915D45DC5C9213B81D0AB6EAB21F280D124A127A68"
+  }
+}

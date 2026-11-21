@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "原实验已通过核验",
+      "passed": true
+    },
+    {
+      "name": "原始生成配置一致",
+      "passed": true
+    },
+    {
+      "name": "原DBSCAN参数一致",
+      "passed": true
+    },
+    {
+      "name": "原实验文件哈希：ring_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "原实验文件哈希：ring_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "原实验文件哈希：ring_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "原实验文件哈希：ring_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "原实验脚本未改",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：data\\mall_customers_sim.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：data\\mall_customers_yuan.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：webapp\\index.html",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\baseline\\baseline_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\baseline\\baseline_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\feature_compare\\feature_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\feature_compare\\metrics.json",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\stability\\metrics.json",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：reports\\05_choose_k.log",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\stability\\labels_seed_0.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\stability\\labels_seed_2026.csv",
+      "passed": true
+    },
+    {
+      "name": "既有客户实验未变：outputs\\practice\\stability\\labels_seed_42.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖本轮已有输出：eps_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖本轮已有输出：eps_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "不覆盖本轮已有输出：eps_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "不覆盖本轮已有输出：eps_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "不覆盖本轮已有输出：validation.json",
+      "passed": true
+    },
+    {
+      "name": "原始500点ID与字段完整",
+      "passed": true
+    },
+    {
+      "name": "同一标准化坐标有限且尺度正确",
+      "passed": true
+    },
+    {
+      "name": "参考内外环各250点",
+      "passed": true
+    },
+    {
+      "name": "原DBSCAN标签与指标一致",
+      "passed": true
+    },
+    {
+      "name": "本机中文字体可用",
+      "passed": true
+    },
+    {
+      "name": "eps=0.24 标签覆盖及人数合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.24 噪声和保留样本合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.24 ARI取值有效",
+      "passed": true
+    },
+    {
+      "name": "eps=0.24 轮廓系数范围或空值有效",
+      "passed": true
+    },
+    {
+      "name": "eps=0.28 标签覆盖及人数合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.28 噪声和保留样本合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.28 ARI取值有效",
+      "passed": true
+    },
+    {
+      "name": "eps=0.28 轮廓系数范围或空值有效",
+      "passed": true
+    },
+    {
+      "name": "eps=0.32 标签覆盖及人数合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.32 噪声和保留样本合计500",
+      "passed": true
+    },
+    {
+      "name": "eps=0.32 ARI取值有效",
+      "passed": true
+    },
+    {
+      "name": "eps=0.32 轮廓系数范围或空值有效",
+      "passed": true
+    },
+    {
+      "name": "运行结束原实验未变：ring_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "运行结束原实验未变：ring_labels.csv",
+      "passed": true
+    },
+    {
+      "name": "运行结束原实验未变：ring_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "运行结束原实验未变：ring_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：outputs/practice/research/validation.json",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：practice/05_ring_research.py",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：reports/15_ring_research.log",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：data/mall_customers_sim.csv",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：data/mall_customers_yuan.csv",
+      "passed": true
+    },
+    {
+      "name": "运行结束原文件未变：student_webapp/results.js",
+      "passed": true
+    },
+    {
+      "name": "落盘CSV仍有500个唯一ID",
+      "passed": true
+    },
+    {
+      "name": "落盘原始与标准化坐标完全一致",
+      "passed": true
+    },
+    {
+      "name": "落盘参考标签及全部预测一致",
+      "passed": true
+    }
+  ],
+  "manual_figure_acceptance": "待本人核对",
+  "output_sha256": {
+    "eps_labels.csv": "A43F7CF8D6DF5DFE687DB3F4B063EE4540D16A3D8845A81B7B67DFE24FF4BB0D",
+    "eps_metrics.csv": "23B0CC117989BF6E2033ABE2DACDF8680CBBE2E8F990CCD902B0D738EEACC089",
+    "eps_metrics.json": "A96B82CCBD9F790B094697A3BB77C4FCACFF7F312EC512104DFAA577B7BE513F",
+    "eps_comparison.png": "66FE52B64AFCF4D2D717A1F23C0A566E7505F9F2B6CABEF7A7B208834DDCE572"
+  }
+}

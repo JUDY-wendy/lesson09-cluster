@@ -1,0 +1,66 @@
+[通过] 依赖文件全部存在 
+[通过] yuan SHA256正确 
+[通过] 目标文件未存在，不覆盖 
+[通过] 原始七列及顺序正确 
+[通过] 300个唯一客户 
+[通过] 原数据无缺失 
+[通过] KMeans固定参数正确 
+[通过] StandardScaler参数正确 
+[通过] 基础模型参数与对照一致 
+[通过] 两种方案特征顺序正确 
+[通过] 稳定性参数一致 
+[通过] 既有记录数据哈希一致 
+实际拟合 two_features 0 {'inertia': 62.79121200455589, 'silhouette': 0.6902386829838079, 'n_iter': 3, 'cluster_counts': [126, 50, 124], 'warnings': []}
+实际拟合 two_features 42 {'inertia': 62.79121200455589, 'silhouette': 0.6902386829838079, 'n_iter': 4, 'cluster_counts': [126, 50, 124], 'warnings': []}
+实际拟合 two_features 2026 {'inertia': 62.79121200455589, 'silhouette': 0.6902386829838079, 'n_iter': 3, 'cluster_counts': [126, 50, 124], 'warnings': []}
+[通过] two_features_0人数和客户覆盖正确 
+[通过] two_features_42人数和客户覆盖正确 
+[通过] two_features_2026人数和客户覆盖正确 
+实际拟合 three_features 0 {'inertia': 137.93472519249343, 'silhouette': 0.627361019917201, 'n_iter': 4, 'cluster_counts': [113, 51, 136], 'warnings': []}
+实际拟合 three_features 42 {'inertia': 137.93472519249343, 'silhouette': 0.627361019917201, 'n_iter': 4, 'cluster_counts': [136, 113, 51], 'warnings': []}
+实际拟合 three_features 2026 {'inertia': 137.93472519249343, 'silhouette': 0.627361019917201, 'n_iter': 5, 'cluster_counts': [113, 51, 136], 'warnings': []}
+[通过] three_features seed 0/42与既有稳定性一致 
+[通过] three_features seed 0/2026与既有稳定性一致 
+[通过] three_features seed 42/2026与既有稳定性一致 
+[通过] three_features_0人数和客户覆盖正确 
+[通过] three_features_42人数和客户覆盖正确 
+[通过] three_features_2026人数和客户覆盖正确 
+[通过] two_features/42参照客户ID一致 
+[通过] two_features/42逐客户分组一致 {'ari': 1.0, 'matched': 300, 'changed': 0, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 1, 2: 2}, 'table': [[126, 0, 0], [0, 50, 0], [0, 0, 124]]}
+[通过] two_features/42 inertia一致 
+[通过] two_features/42 silhouette一致 
+[通过] two_features/42 n_iter一致 
+[通过] three_features/0参照客户ID一致 
+[通过] three_features/0逐客户分组一致 {'ari': 1.0, 'matched': 300, 'changed': 0, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 1, 2: 2}, 'table': [[113, 0, 0], [0, 51, 0], [0, 0, 136]]}
+[通过] three_features/0 inertia一致 
+[通过] three_features/0 silhouette一致 
+[通过] three_features/0 n_iter一致 
+[通过] three_features/42参照客户ID一致 
+[通过] three_features/42逐客户分组一致 {'ari': 1.0, 'matched': 300, 'changed': 0, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 1, 2: 2}, 'table': [[136, 0, 0], [0, 113, 0], [0, 0, 51]]}
+[通过] three_features/42 inertia一致 
+[通过] three_features/42 silhouette一致 
+[通过] three_features/42 n_iter一致 
+[通过] three_features/2026参照客户ID一致 
+[通过] three_features/2026逐客户分组一致 {'ari': 1.0, 'matched': 300, 'changed': 0, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 1, 2: 2}, 'table': [[113, 0, 0], [0, 51, 0], [0, 0, 136]]}
+[通过] three_features/2026 inertia一致 
+[通过] three_features/2026 silhouette一致 
+[通过] three_features/2026 n_iter一致 
+[通过] three_features/42参照客户ID一致 
+[通过] three_features/42逐客户分组一致 {'ari': 1.0, 'matched': 300, 'changed': 0, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 1, 2: 2}, 'table': [[136, 0, 0], [0, 113, 0], [0, 0, 51]]}
+[通过] three_features/42 inertia一致 
+[通过] three_features/42 silhouette一致 
+[通过] three_features/42 n_iter一致 
+[通过] 年龄对照ARI和匹配/变化人数一致 {'ari': 0.8141599064495293, 'matched': 283, 'changed': 17, 'total': 300, 'mapping_a_to_b': {0: 0, 1: 2, 2: 1}, 'table': [[123, 3, 0], [0, 0, 50], [13, 110, 1]]}
+[通过] 年龄对照原始交叉表一致 
+[通过] 已从原日志解析完整选k指标 
+[通过] 计算及核验期间所有源文件哈希未变 
+[通过] 六个真实配置已生成 
+导出完成：6配置，标签共1800行，每配置300客户。人工验收待本人确认。
+结果： D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\student_webapp\results.js
+          config_id         scheme  seed           features cluster_counts    inertia  silhouette  n_iter warnings
+     two_features_0   two_features     0     income|balance [126, 50, 124]  62.791212    0.690239       3         
+    two_features_42   two_features    42     income|balance [126, 50, 124]  62.791212    0.690239       4         
+  two_features_2026   two_features  2026     income|balance [126, 50, 124]  62.791212    0.690239       3         
+   three_features_0 three_features     0 income|balance|age [113, 51, 136] 137.934725    0.627361       4         
+  three_features_42 three_features    42 income|balance|age [136, 113, 51] 137.934725    0.627361       4         
+three_features_2026 three_features  2026 income|balance|age [113, 51, 136] 137.934725    0.627361       5         

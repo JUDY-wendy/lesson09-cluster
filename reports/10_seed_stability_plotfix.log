@@ -1,0 +1,24 @@
+﻿# 三随机种子稳定性 图面修正（plotfix）运行日志
+运行时间：2026-11-20 16:00:47
+工作目录：D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+实际命令：& "C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe" -X utf8 "__tmp_replot.py"
+退出码：0
+实际耗时：5.08 秒
+说明：首次尝试路径错误 ROOT=Path(__file__).resolve().parent.parent 导致 FileNotFoundError，已修正为 .parent 后重跑
+
+===== STDOUT =====
+import 成功；模块内 main() 未被调用（因有 __name__ == '__main__' 保护）
+模块符号：choose_font=True, plot=True
+
+df shape: (300, 10), unique customer_id: 300
+  seed=0 labels counts: {0: 113, 1: 51, 2: 136}
+  seed=42 labels counts: {0: 136, 1: 113, 2: 51}
+  seed=2026 labels counts: {0: 113, 1: 51, 2: 136}
+display_maps: {0: {0: 1, 1: 2, 2: 0}, 42: {0: 0, 1: 1, 2: 2}, 2026: {0: 1, 1: 2, 2: 0}}
+中文字体：Microsoft YaHei
+→ stability_scatter.png 已写
+
+重绘完成；未调用任何训练/fit/fit_predict/fit_transform
+===== STDERR =====
+（空）
+===== END =====

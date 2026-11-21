@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-11-21T11:56:57+08:00",
+  "versions": {
+    "python": "3.13.12",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0"
+  },
+  "source": "sklearn.datasets.make_circles；生成器标签仅用于玩具实验评估，不参与两模型训练",
+  "generation": {
+    "n_samples": 500,
+    "factor": 0.5,
+    "noise": 0.04,
+    "random_state": 42,
+    "shuffle": true
+  },
+  "standardization": "StandardScaler.fit_transform on the same 500 x 2",
+  "scaler_mean": [
+    0.0036290077564795123,
+    0.00107331672509859
+  ],
+  "scaler_scale": [
+    0.5603447091387778,
+    0.5575953786296334
+  ],
+  "kmeans_params": {
+    "n_clusters": 2,
+    "init": "k-means++",
+    "random_state": 42,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "algorithm": "lloyd"
+  },
+  "dbscan_params": {
+    "eps": 0.2,
+    "min_samples": 5,
+    "metric": "euclidean"
+  },
+  "metrics": [
+    {
+      "method": "KMeans",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 2,
+      "n_noise": 0,
+      "ari_all_500": -0.001991710267457272,
+      "silhouette": 0.35345523716945243,
+      "silhouette_n": 500,
+      "silhouette_scope": "all_points",
+      "inertia_standardized": 634.2298869240132
+    },
+    {
+      "method": "DBSCAN",
+      "n_total": 500,
+      "n_clusters_excluding_noise": 4,
+      "n_noise": 1,
+      "ari_all_500": 0.8981270940217935,
+      "silhouette": 0.01708423112144309,
+      "silhouette_n": 499,
+      "silhouette_scope": "exclude_noise_-1; null_if_not_2_to_n_minus_1_clusters",
+      "inertia_standardized": null
+    }
+  ],
+  "kmeans_counts": {
+    "0": 253,
+    "1": 247
+  },
+  "dbscan_counts_including_noise": {
+    "-1": 1,
+    "0": 250,
+    "1": 222,
+    "2": 22,
+    "3": 5
+  },
+  "kmeans_n_iter": 10,
+  "dbscan_core_samples": 481,
+  "dbscan_adjustments": [],
+  "script_sha256": "54F4062F1F48B3A4EB732F534CDC1597B696106F25DDA5E85A4F3DDBBFA9CAD6",
+  "font": "Microsoft YaHei",
+  "customer_data_unchanged": true,
+  "limitations": [
+    "ARI使用生成器标签评估全部500点，DBSCAN噪声也计入；不删除噪声美化ARI。",
+    "DBSCAN轮廓系数排除噪声，记录保留样本数；不同评价范围不直接排名。",
+    "欧氏轮廓系数偏好紧凑凸形簇，不能单凭较高分否定同心环的真实结构。",
+    "参数未调整；结果仅说明本次模拟设置，不保证DBSCAN对所有非凸数据或参数有效。",
+    "银行客户数据没有真实类别，不套用此处生成器标签或有监督ARI解释。"
+  ]
+}

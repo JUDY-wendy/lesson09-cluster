@@ -1,0 +1,466 @@
+{
+  "checks": [
+    {
+      "name": "依赖文件全部存在",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "yuan SHA256正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "目标文件未存在，不覆盖",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "原始七列及顺序正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "300个唯一客户",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "原数据无缺失",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KMeans固定参数正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "StandardScaler参数正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "基础模型参数与对照一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "两种方案特征顺序正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "稳定性参数一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "既有记录数据哈希一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features_0人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features_42人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features_2026人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features seed 0/42与既有稳定性一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features seed 0/2026与既有稳定性一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features seed 42/2026与既有稳定性一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features_0人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features_42人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features_2026人数和客户覆盖正确",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features/42参照客户ID一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features/42逐客户分组一致",
+      "passed": true,
+      "details": {
+        "ari": 1.0,
+        "matched": 300,
+        "changed": 0,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 1,
+          "2": 2
+        },
+        "table": [
+          [
+            126,
+            0,
+            0
+          ],
+          [
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            124
+          ]
+        ]
+      }
+    },
+    {
+      "name": "two_features/42 inertia一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features/42 silhouette一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features/42 n_iter一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "two_features/42原始编号直接比较已记录（不作分组一致的必要条件）",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "three_features/0参照客户ID一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/0逐客户分组一致",
+      "passed": true,
+      "details": {
+        "ari": 1.0,
+        "matched": 300,
+        "changed": 0,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 1,
+          "2": 2
+        },
+        "table": [
+          [
+            113,
+            0,
+            0
+          ],
+          [
+            0,
+            51,
+            0
+          ],
+          [
+            0,
+            0,
+            136
+          ]
+        ]
+      }
+    },
+    {
+      "name": "three_features/0 inertia一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/0 silhouette一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/0 n_iter一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/0原始编号直接比较已记录（不作分组一致的必要条件）",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "three_features/42参照客户ID一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42逐客户分组一致",
+      "passed": true,
+      "details": {
+        "ari": 1.0,
+        "matched": 300,
+        "changed": 0,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 1,
+          "2": 2
+        },
+        "table": [
+          [
+            136,
+            0,
+            0
+          ],
+          [
+            0,
+            113,
+            0
+          ],
+          [
+            0,
+            0,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "name": "three_features/42 inertia一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42 silhouette一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42 n_iter一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42原始编号直接比较已记录（不作分组一致的必要条件）",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "three_features/2026参照客户ID一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/2026逐客户分组一致",
+      "passed": true,
+      "details": {
+        "ari": 1.0,
+        "matched": 300,
+        "changed": 0,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 1,
+          "2": 2
+        },
+        "table": [
+          [
+            113,
+            0,
+            0
+          ],
+          [
+            0,
+            51,
+            0
+          ],
+          [
+            0,
+            0,
+            136
+          ]
+        ]
+      }
+    },
+    {
+      "name": "three_features/2026 inertia一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/2026 silhouette一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/2026 n_iter一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/2026原始编号直接比较已记录（不作分组一致的必要条件）",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "three_features/42参照客户ID一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42逐客户分组一致",
+      "passed": true,
+      "details": {
+        "ari": 1.0,
+        "matched": 300,
+        "changed": 0,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 1,
+          "2": 2
+        },
+        "table": [
+          [
+            136,
+            0,
+            0
+          ],
+          [
+            0,
+            113,
+            0
+          ],
+          [
+            0,
+            0,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "name": "three_features/42 inertia一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42 silhouette一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42 n_iter一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three_features/42原始编号直接比较已记录（不作分组一致的必要条件）",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "年龄对照ARI和匹配/变化人数一致",
+      "passed": true,
+      "details": {
+        "ari": 0.8141599064495293,
+        "matched": 283,
+        "changed": 17,
+        "total": 300,
+        "mapping_a_to_b": {
+          "0": 0,
+          "1": 2,
+          "2": 1
+        },
+        "table": [
+          [
+            123,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            50
+          ],
+          [
+            13,
+            110,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "年龄对照原始交叉表一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "已从原日志解析完整选k指标",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "计算及核验期间所有源文件哈希未变",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "六个真实配置已生成",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "source_hashes": {
+    "data\\mall_customers_yuan.csv": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07",
+    "outputs\\practice\\baseline\\baseline_labels.csv": "AE041412BEBC5F321AFFDE378CF5C7835F8B6A6681E75F2F70DD49F5ABC9BA97",
+    "outputs\\practice\\baseline\\baseline_metrics.json": "8A37DBEFD88751F8AB1066E0B38DA2F1604BA4B6D4FED73D1A1103642A26597B",
+    "outputs\\practice\\feature_compare\\feature_labels.csv": "3E153AF7FBC01C4F3D6BFB34944EEF58609F3B46C45DA398898CD874E89628E2",
+    "outputs\\practice\\feature_compare\\metrics.json": "F3CF06812F7A7E68AD77CBD71BC7A14B5BF6BF856B3E770A0218E05ABBD826FC",
+    "outputs\\practice\\feature_compare\\contingency_table.csv": "A77CCD5400C0F5969045690767487A1BB561177E231FC62B2D34810EA065507B",
+    "outputs\\practice\\stability\\metrics.json": "10F83C4CBD6428F69E1BA852E010152E26ED71F0EB3A492EDFE90EC5B2BA4231",
+    "reports\\05_choose_k.log": "AFC86100C98B77DF68F3F40A45E77288C5186BC7FA3DE35301285C9CFC7BDDA3",
+    "outputs\\practice\\stability\\labels_seed_0.csv": "14CF7332F701BE72FF075BB7B37A5C2D4B4F614184E5DE4D773C19E16EC3A827",
+    "outputs\\practice\\stability\\labels_seed_42.csv": "7FFC860AAE0C68996A65FB972C0E513932B59DF9E2128AD6C549B736DE66E4BE",
+    "outputs\\practice\\stability\\labels_seed_2026.csv": "BBE8165F39D0C82F3703A7B82C3521393B5605612D7E10436AF77D96BEC97DA7",
+    "webapp\\index.html": "8A57A86A70E6908E91B5E693CBA176AB8AD57F0EE9BA365E2B18ADF22C399E63",
+    "evidence\\08_tool_sketch.jpg": "A1659074192C1E43599309747B194BCAF2EF278B1388A535F078E5CDE142C0E2",
+    "outputs\\05_choose_k.png": "2E4D6B8691727B19BE3F2FE30ACD55A7929233736D831D4E8E372BAE37F38380",
+    "outputs\\practice\\feature_compare\\feature_compare.png": "6126A2564926B980826CA9FADF3CA7F7805FA195D6FB8B16E92FA9BE6FF0AB4A",
+    "outputs\\practice\\stability\\stability_scatter.png": "F4901AB40DC692E65B3BFCB20CCA27DA72A17FCA2C2213A64FC49D4E84653C1B"
+  },
+  "passed": true,
+  "manual_acceptance": "待本人确认"
+}

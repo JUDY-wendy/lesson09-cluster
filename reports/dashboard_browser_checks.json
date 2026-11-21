@@ -1,0 +1,294 @@
+{
+  "started_at": "2026-11-20T10:04:01.124Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "下载目录初始为空",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载完成",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "默认两特征 seed42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_0 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_0 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_0 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_0 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "two_features_0_k3_labels.csv"
+    },
+    {
+      "name": "two_features_0 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "two_features_42_k3_labels.csv"
+    },
+    {
+      "name": "two_features_42 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_2026 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_2026 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_2026 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_2026 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "two_features_2026_k3_labels.csv"
+    },
+    {
+      "name": "two_features_2026 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_0 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_0 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_0 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_0 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "three_features_0_k3_labels.csv"
+    },
+    {
+      "name": "three_features_0 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "three_features_42_k3_labels.csv"
+    },
+    {
+      "name": "three_features_42 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_2026 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_2026 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_2026 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_2026 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "three_features_2026_k3_labels.csv"
+    },
+    {
+      "name": "three_features_2026 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "选 k 数值与结论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "年龄对照真实变化与 ARI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features 稳定性面板联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features 稳定性面板联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复默认配置和标签页",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 窄屏无整页横向溢出",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载完成",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_features_42 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "断网刷新可用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载完成",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 配置与指标联动",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 散点逐客户标签与配色",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 画像对应真实均值",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "复制文件夹后离线图片均可读取",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_features_42 CSV 编码、表头、300行",
+      "passed": true,
+      "detail": "three_features_42_k3_labels.csv"
+    },
+    {
+      "name": "three_features_42 CSV 每个字段与当前模型一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "无外部网络请求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "浏览器无脚本异常",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "数据表行无整行背景填色",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "screenshots": [
+    "evidence\\09_tool_default.png",
+    "evidence\\10_tool_changed.png",
+    "evidence\\11_tool_mobile_auto.png"
+  ],
+  "downloads": [
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\two_features_0_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\two_features_42_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\two_features_2026_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\three_features_0_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\three_features_42_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads\\three_features_2026_k3_labels.csv",
+    "outputs\\practice\\dashboard_browser_qa\\downloads_portable\\three_features_42_k3_labels.csv"
+  ],
+  "manual_acceptance": "待本人操作，自动检查不代替本人验收",
+  "finished_at": "2026-11-20T10:04:04.725Z",
+  "console_errors": [],
+  "external_requests": []
+}

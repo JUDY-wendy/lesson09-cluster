@@ -1,0 +1,5 @@
+Command: python -X utf8 -m py_compile practice\06_ring_eps_compare.py
+Exit code: 0
+STDOUT:
+
+STDERR:

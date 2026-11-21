@@ -1,0 +1,59 @@
+﻿# 三随机种子稳定性实验运行日志
+运行时间：2026-11-20 15:51:52
+工作目录：D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+实际命令：& "C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe" -X utf8 "practice\03_seed_stability.py"
+退出码：0
+实际耗时：7.09 秒
+
+===== STDOUT =====
+中文字体：Microsoft YaHei
+========================================================================
+预检
+========================================================================
+  yuan SHA256: 060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07
+  yuan 300 行 × 7 列
+  feature_compare seed42 标签合并成功，分布：{0: 136, 1: 113, 2: 51}
+  StandardScaler fit 完成，shape=(300, 3)，mean≈0、std≈1
+
+KMeans 拟合：random_state=0，k=3, n_init=10, k-means++
+  counts: {0: 113, 1: 51, 2: 136}, inertia=137.934725, silhouette=0.627361, n_iter_=4
+
+KMeans 拟合：random_state=42，k=3, n_init=10, k-means++
+  counts: {0: 136, 1: 113, 2: 51}, inertia=137.934725, silhouette=0.627361, n_iter_=4
+
+KMeans 拟合：random_state=2026，k=3, n_init=10, k-means++
+  counts: {0: 113, 1: 51, 2: 136}, inertia=137.934725, silhouette=0.627361, n_iter_=5
+  0 vs 42: ARI=1.000000, 匹配 300, 变化 0
+  0 vs 2026: ARI=1.000000, 匹配 300, 变化 0
+  42 vs 2026: ARI=1.000000, 匹配 300, 变化 0
+  展示映射 seed0 → seed42: {0: 1, 1: 2, 2: 0}
+  展示映射 seed42 → seed42: {0: 0, 1: 1, 2: 2}
+  展示映射 seed2026 → seed42: {0: 1, 1: 2, 2: 0}
+
+seed42 拟合 vs feature_compare seed42 标签：ARI=1.000000，匹配 300/300，变化 0
+  → 分组一致（ARI=1，匹配后变化 0），通过核验
+→ labels_seed_0.csv 已写
+→ labels_seed_42.csv 已写
+→ labels_seed_2026.csv 已写
+→ profiles.csv 已写
+→ metrics.csv 已写
+→ pairwise_comparisons.csv 已写
+→ contingency_tables.csv 已写
+→ metrics.json 已写
+→ stability_scatter.png 已写
+
+========================================================================
+结果汇总
+========================================================================
+  seed=0: counts={0: 113, 1: 51, 2: 136}, inertia=137.934725, silhouette=0.627361, n_iter=4
+  seed=42: counts={0: 136, 1: 113, 2: 51}, inertia=137.934725, silhouette=0.627361, n_iter=4
+  seed=2026: counts={0: 113, 1: 51, 2: 136}, inertia=137.934725, silhouette=0.627361, n_iter=5
+  seed42 vs feature_compare: ARI=1.000000, matched=300, changed=0
+  0_vs_42: ARI=1.000000, matched=300, changed=0
+  0_vs_2026: ARI=1.000000, matched=300, changed=0
+  42_vs_2026: ARI=1.000000, matched=300, changed=0
+  展示映射 (current→42): {0: {0: 1, 1: 2, 2: 0}, 42: {0: 0, 1: 1, 2: 2}, 2026: {0: 1, 1: 2, 2: 0}}
+完成
+===== STDERR =====
+（空）
+===== END =====

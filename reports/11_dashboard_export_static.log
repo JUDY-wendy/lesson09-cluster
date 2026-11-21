@@ -1,0 +1,6 @@
+Static syntax check only; no fit or import of target module.
+Started: 2026-11-20T17:39:36.0658892+08:00
+Command: Python313\python.exe -X utf8 -m py_compile practice\04_export_dashboard.py
+Exit: 0
+STDOUT:
+STDERR:

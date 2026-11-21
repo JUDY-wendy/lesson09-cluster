@@ -1,0 +1,14 @@
+Started: 2026-11-21T12:07:32.1091775+08:00
+Command: C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe -X utf8 practice\06_ring_eps_compare.py
+Exit code: 1
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\practice\06_ring_eps_compare.py", line 198, in <module>
+    main()
+    ~~~~^^
+  File "D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\practice\06_ring_eps_compare.py", line 60, in main
+    verify("原实验脚本未改", original_hashes["practice/05_ring_research.py"] == meta["script_sha256"])
+                             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'practice/05_ring_research.py'

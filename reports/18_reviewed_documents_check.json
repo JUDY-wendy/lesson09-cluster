@@ -1,0 +1,49 @@
+{
+    "checked_at":  "2026-11-21T14:35:04.2307351+08:00",
+    "passed":  true,
+    "document_checks":  [
+                            {
+                                "file":  "README.md",
+                                "local_links":  5,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "progress.md",
+                                "local_links":  18,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "reports\\第九课客户分群自主实践报告.md",
+                                "local_links":  30,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "reports\\independent_research.md",
+                                "local_links":  22,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "ai_logs\\AI使用记录.md",
+                                "local_links":  39,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "ai_logs\\18_报告与提交材料整理.md",
+                                "local_links":  0,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "ai_logs\\19_验收确认与仓库准备.md",
+                                "local_links":  1,
+                                "passed":  true
+                            }
+                        ],
+    "local_links":  115,
+    "protected_files_checked":  12,
+    "protected_files_changed":  0,
+    "manual_confirmation":  "2026-11-21本人回复确认：正式报告、progress、客群命名、业务建议、新增研究图及个人收获",
+    "backup_directory":  "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\reports\\revisions\\user_confirmation_20261121_143504",
+    "provided_remote":  "https://github.com/JUDY-wendy/-.git",
+    "remote_status":  "名称不符合lesson09-cluster，待本人改名或新建",
+    "git_mutations_performed":  false
+}

@@ -1,0 +1,96 @@
+{
+  "exported_at": "2026-11-20T15:35:58+08:00",
+  "experiment_note": "对照实验：仅特征集改变（两特征=income+balance；三特征=income+balance+age），KMeans/StandardScaler 参数保持一致。两特征模型指标来自既有 baseline 结果，非本轮重训练。三特征模型为本轮新训练。不可跨特征空间比较 SSE 或凭 silhouette 高低直接判定加入年龄更好。",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1"
+  },
+  "dependencies": {
+    "data_file": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\data\\mall_customers_yuan.csv",
+    "baseline_labels": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\outputs\\practice\\baseline\\baseline_labels.csv",
+    "baseline_metrics": "D:\\zyl66\\studyclass_related\\人工智能程序设计与实践\\lesson09-cluster\\outputs\\practice\\baseline\\baseline_metrics.json",
+    "yuan_sha256": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+  },
+  "kmeans_params": {
+    "n_clusters": 3,
+    "init": "k-means++",
+    "n_init": 10,
+    "random_state": 42,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "algorithm": "lloyd",
+    "copy_x": true,
+    "verbose": 0
+  },
+  "standard_scaler_params": {
+    "with_mean": true,
+    "with_std": true,
+    "copy": true
+  },
+  "two_features": {
+    "feature_order": [
+      "income",
+      "balance"
+    ],
+    "silhouette": 0.6902386829838079,
+    "silhouette_space": "标准化空间（z 分数）",
+    "silhouette_source": "control_experiment D 配置，非本轮重训练",
+    "inertia": 62.79121200455589,
+    "inertia_space": "标准化空间（z 分数）",
+    "n_iter": 4,
+    "n_iter_source": "control_experiment D 配置，非本轮重训练",
+    "cluster_counts": {
+      "0": 126,
+      "1": 50,
+      "2": 124
+    }
+  },
+  "three_features": {
+    "feature_order": [
+      "income",
+      "balance",
+      "age"
+    ],
+    "silhouette": 0.627361019917201,
+    "silhouette_space": "标准化空间（z 分数）",
+    "inertia": 137.93472519249343,
+    "inertia_space": "标准化空间（z 分数）",
+    "n_iter": 4,
+    "cluster_counts": {
+      "0": 136,
+      "1": 113,
+      "2": 51
+    },
+    "warnings": []
+  },
+  "comparison": {
+    "ari": 0.8141599064495293,
+    "ari_note": "ARI 基于原始簇编号本身计算，但不受簇编号置换影响；若两模型只是编号重排 ARI 仍为 1.0，需同时参考最大重叠匹配结果。",
+    "max_overlap_matched": 283,
+    "max_overlap_changed": 17,
+    "max_overlap_total": 300,
+    "match_rate": 0.9433333333333334,
+    "mapping_two_to_three": {
+      "0": 0,
+      "1": 2,
+      "2": 1
+    },
+    "mapping_three_to_two": {
+      "0": 0,
+      "2": 1,
+      "1": 2
+    },
+    "mapping_is_self_inverse": true
+  },
+  "notes": [
+    "只有特征集改变；customer_id、gender、city、product_count 不入模。",
+    "三特征模型图中的年龄—收入图为三维聚类结果的二维投影，年龄并未单独作为建模质心维度绘制。",
+    "不可跨特征空间比较 SSE（inertia）判断优劣；不可仅凭 silhouette 高低直接判定加入年龄更好。",
+    "相同颜色按最大重叠匹配对齐两/三特征模型（用三→两反向映射），不代表成员完全相同。"
+  ]
+}
