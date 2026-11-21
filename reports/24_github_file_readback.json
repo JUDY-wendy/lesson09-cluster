@@ -1,0 +1,40 @@
+{
+  "read_checks": [
+    {
+      "path": "README.md",
+      "read_success": true,
+      "blob_sha": "44c4ac216fad58eb682d4818e4279c6f7659ed60",
+      "url": "https://github.com/JUDY-wendy/lesson09-cluster/blob/79eb397fd288411f4e8f512bac67b55b69d9cbf4/README.md",
+      "checked_ref": "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+    },
+    {
+      "path": "progress.md",
+      "read_success": true,
+      "blob_sha": "909f9867471b4485f4f78e2884a438b33528447e",
+      "url": "https://github.com/JUDY-wendy/lesson09-cluster/blob/79eb397fd288411f4e8f512bac67b55b69d9cbf4/progress.md",
+      "checked_ref": "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+    },
+    {
+      "path": "reports/第九课客户分群自主实践报告.md",
+      "read_success": true,
+      "blob_sha": "9a771d233345c413a60f1b589744484dff93d39c",
+      "url": "https://github.com/JUDY-wendy/lesson09-cluster/blob/79eb397fd288411f4e8f512bac67b55b69d9cbf4/reports/%E7%AC%AC%E4%B9%9D%E8%AF%BE%E5%AE%A2%E6%88%B7%E5%88%86%E7%BE%A4%E8%87%AA%E4%B8%BB%E5%AE%9E%E8%B7%B5%E6%8A%A5%E5%91%8A.md",
+      "checked_ref": "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+    },
+    {
+      "path": "data/mall_customers_sim.csv",
+      "read_success": true,
+      "blob_sha": "11485ca0b4bacc3fbfce2e45a4af9ca509b61d11",
+      "url": "https://github.com/JUDY-wendy/lesson09-cluster/blob/79eb397fd288411f4e8f512bac67b55b69d9cbf4/data/mall_customers_sim.csv",
+      "checked_ref": "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+    },
+    {
+      "path": "student_webapp/index.html",
+      "read_success": true,
+      "blob_sha": "381a64fa51d14744bf01034f4079f0f585316818",
+      "url": "https://github.com/JUDY-wendy/lesson09-cluster/blob/79eb397fd288411f4e8f512bac67b55b69d9cbf4/student_webapp/index.html",
+      "checked_ref": "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+    }
+  ],
+  "all_passed": true
+}

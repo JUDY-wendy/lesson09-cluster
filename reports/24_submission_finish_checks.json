@@ -1,0 +1,51 @@
+{
+    "checked_at":  "2026-11-21T15:14:08.6473300+08:00",
+    "passed":  true,
+    "document_checks":  [
+                            {
+                                "file":  "README.md",
+                                "local_links":  7,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "progress.md",
+                                "local_links":  0,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "reports\\第九课客户分群自主实践报告.md",
+                                "local_links":  31,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "reports\\independent_research.md",
+                                "local_links":  22,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "reports\\git_submission.md",
+                                "local_links":  3,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "ai_logs\\AI使用记录.md",
+                                "local_links":  40,
+                                "passed":  true
+                            },
+                            {
+                                "file":  "ai_logs\\20_Git阶段提交与远端准备.md",
+                                "local_links":  1,
+                                "passed":  true
+                            }
+                        ],
+    "local_links":  104,
+    "protected_files_checked":  12,
+    "protected_files_changed":  0,
+    "rainclass_body_matches_progress_bytes":  true,
+    "progress_sha256":  "AD3597E03C40F0567BD16F56B901B795D7F58338BBF0F4B39DA0FA704BE25898",
+    "rainclass_question1":  "完整进度报告正文，与根progress.md内容一致",
+    "rainclass_question2":  "https://github.com/JUDY-wendy/lesson09-cluster",
+    "rainclass_final_submission":  "待本人手动点击提交及回执确认",
+    "first_push_verified":  true,
+    "first_remote_main":  "79eb397fd288411f4e8f512bac67b55b69d9cbf4"
+}

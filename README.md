@@ -65,4 +65,4 @@
 
 ## 当前提交状态
 
-代码、实验、页面和文档已整理，不等于已经push或教师验收。已在Trae建立独立Git仓库，完成三个本地检查点提交和O9-step1/2/3标签，绑定本人提供的GitHub仓库；真实SHA与时间见[Git提交记录](reports/git_submission.md)。尚未push，不能写为远端已提交。原任务书要求课后48小时内push，实际补交/延期和雨课堂入口待本人确认，不套用HW2的12/4，不回填时间。
+已于2026-11-21在Trae实际推送main与O9-step1/2/3标签到本人指定的[独立GitHub仓库](https://github.com/JUDY-wendy/lesson09-cluster)，并逐项核对远端SHA。真实提交、时间和推送记录见[Git提交记录](reports/git_submission.md)。实际推送已超过原课后48小时时限，不回填时间，不套用HW2的12/4。雨课堂第1题复制[粘贴正文](reports/雨课堂第1题_粘贴正文.txt)，其UTF-8正文与根progress.md完全一致；第2题填写仓库地址。雨课堂最终交卷及教师验收仍由平台实际回执确认。
