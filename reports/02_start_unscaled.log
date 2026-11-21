@@ -1,0 +1,403 @@
+﻿起点版（未标准化）聚类运行日志
+运行时间：2026-11-19 14:37:22
+完整命令：C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe -X utf8 "generated\02_起点版_kmeans.py"
+工作目录：
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+退出码：0
+
+----- 标准输出 -----
+已保存 outputs/03_clustered_scatter.png
+
+           人数   平均年龄   平均收入   平均余额  平均持有产品数
+cluster                                   
+0        125  21.34   6.09   1.36     1.96
+1         50  46.72  40.84  48.97     1.98
+2        125  37.46  19.15  12.21     2.17
+已保存 generated/mall_report.md
+
+----- 标准错误 -----
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 25910 (\N{CJK UNIFIED IDEOGRAPH-6536}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20837 (\N{CJK UNIFIED IDEOGRAPH-5165}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 19975 (\N{CJK UNIFIED IDEOGRAPH-4E07}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20803 (\N{CJK UNIFIED IDEOGRAPH-5143}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 36134 (\N{CJK UNIFIED IDEOGRAPH-8D26}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 25143 (\N{CJK UNIFIED IDEOGRAPH-6237}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 22343 (\N{CJK UNIFIED IDEOGRAPH-5747}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20313 (\N{CJK UNIFIED IDEOGRAPH-4F59}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 32858 (\N{CJK UNIFIED IDEOGRAPH-805A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 32467 (\N{CJK UNIFIED IDEOGRAPH-7ED3}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 29305 (\N{CJK UNIFIED IDEOGRAPH-7279}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 24449 (\N{CJK UNIFIED IDEOGRAPH-5F81}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 65306 (\N{FULLWIDTH COLON}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 31751 (\N{CJK UNIFIED IDEOGRAPH-7C07}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:39: UserWarning: Glyph 24515 (\N{CJK UNIFIED IDEOGRAPH-5FC3}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 36134 (\N{CJK UNIFIED IDEOGRAPH-8D26}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 25143 (\N{CJK UNIFIED IDEOGRAPH-6237}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 22343 (\N{CJK UNIFIED IDEOGRAPH-5747}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20313 (\N{CJK UNIFIED IDEOGRAPH-4F59}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 19975 (\N{CJK UNIFIED IDEOGRAPH-4E07}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20803 (\N{CJK UNIFIED IDEOGRAPH-5143}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 32858 (\N{CJK UNIFIED IDEOGRAPH-805A}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 32467 (\N{CJK UNIFIED IDEOGRAPH-7ED3}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 29305 (\N{CJK UNIFIED IDEOGRAPH-7279}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 24449 (\N{CJK UNIFIED IDEOGRAPH-5F81}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 65306 (\N{FULLWIDTH COLON}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 25910 (\N{CJK UNIFIED IDEOGRAPH-6536}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20837 (\N{CJK UNIFIED IDEOGRAPH-5165}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 31751 (\N{CJK UNIFIED IDEOGRAPH-7C07}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster\generated\02_起点版_kmeans.py:40: UserWarning: Glyph 24515 (\N{CJK UNIFIED IDEOGRAPH-5FC3}) missing from font(s) DejaVu Sans.
+  plt.savefig("outputs/03_clustered_scatter.png", dpi=150)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Songti SC, STHeiti, PingFang SC
+

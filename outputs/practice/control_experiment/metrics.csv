@@ -1,0 +1,5 @@
+﻿config,data_file,preprocessing,feature_order,space,n_samples,n_clusters,n_cluster_0,n_cluster_1,n_cluster_2,inertia,silhouette,silhouette_space,n_iter,max_iter,n_warnings,warnings
+A,mall_customers_sim.csv,none,income+balance,万元-万元 数值空间（income 万元，balance 万元）,300,3,125,50,125,14606.607352399998,0.6862585664625078,万元-万元 数值空间（income 万元，balance 万元）,2,300,0,
+B,mall_customers_yuan.csv,none,income+balance,混合单位数值空间（income 万元，balance 元）,300,3,141,48,111,720562609170.889,0.7072379530570799,混合单位数值空间（income 万元，balance 元）,2,300,0,
+C,mall_customers_sim.csv,StandardScaler,income+balance,标准化空间（z 分数）,300,3,126,50,124,62.79121200455589,0.6902386829838079,标准化空间（z 分数）,4,300,0,
+D,mall_customers_yuan.csv,StandardScaler,income+balance,标准化空间（z 分数）,300,3,126,50,124,62.79121200455589,0.6902386829838079,标准化空间（z 分数）,4,300,0,

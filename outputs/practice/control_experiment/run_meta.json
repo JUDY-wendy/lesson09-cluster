@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-11-20T11:24:55+08:00",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "script": "practice/00_scale_control.py",
+  "command": [
+    "C:\\Users\\zyl66\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "practice\\00_scale_control.py"
+  ],
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1"
+  },
+  "units": {
+    "income": "万元（两份数据一致）",
+    "balance_sim": "万元",
+    "balance_yuan": "元",
+    "profile_balance": "同时提供万元与元两列",
+    "plot_balance": "万元（元值 ÷ 10000）"
+  },
+  "data": {
+    "files": [
+      "data/mall_customers_sim.csv",
+      "data/mall_customers_yuan.csv"
+    ],
+    "sha256": {
+      "mall_customers_sim.csv": "13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F",
+      "mall_customers_yuan.csv": "060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07"
+    },
+    "rows": 300,
+    "columns": [
+      "customer_id",
+      "age",
+      "income",
+      "balance",
+      "product_count",
+      "gender",
+      "city"
+    ]
+  },
+  "prechecks": {
+    "passed": true,
+    "customer_id_unique": true,
+    "customer_id_no_missing": true,
+    "same_customer_set": true,
+    "non_balance_field_diff_rows": {
+      "age": 0,
+      "income": 0,
+      "product_count": 0,
+      "gender": 0,
+      "city": 0
+    },
+    "balance_max_abs_diff_yuan": 5.820766091346741e-11,
+    "balance_nonzero_rows": 24,
+    "balance_total_rows": 300,
+    "balance_tolerance_yuan": 1e-06,
+    "note": "浮点差异为 float64 表示误差，已按实际值记录，未四舍五入、未删行、未修复。"
+  },
+  "features": [
+    "income",
+    "balance"
+  ],
+  "kmeans_params": {
+    "n_clusters": 3,
+    "init": "k-means++",
+    "n_init": 10,
+    "random_state": 42,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "algorithm": "lloyd",
+    "copy_x": true,
+    "verbose": 0
+  },
+  "standard_scaler_params": {
+    "with_mean": true,
+    "with_std": true,
+    "copy": true
+  },
+  "configs": [
+    {
+      "id": "A",
+      "data_file": "mall_customers_sim.csv",
+      "description": "sim 万元 · 未标准化",
+      "preprocessing": "none",
+      "space": "万元-万元 数值空间（income 万元，balance 万元）",
+      "n_samples": 300,
+      "cluster_counts": [
+        125,
+        50,
+        125
+      ],
+      "inertia": 14606.607352399998,
+      "silhouette": 0.6862585664625078,
+      "n_iter": 2,
+      "centers_original_units": [
+        {
+          "cluster": 0,
+          "income_wan": 6.092559999999999,
+          "balance_wan": 1.355039999999999,
+          "balance_yuan": 13550.399999999989
+        },
+        {
+          "cluster": 1,
+          "income_wan": 40.8356,
+          "balance_wan": 48.96619999999999,
+          "balance_yuan": 489661.99999999994
+        },
+        {
+          "cluster": 2,
+          "income_wan": 19.1452,
+          "balance_wan": 12.20784,
+          "balance_yuan": 122078.4
+        }
+      ],
+      "warnings": [],
+      "display_mapping_to_D": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "id": "B",
+      "data_file": "mall_customers_yuan.csv",
+      "description": "yuan 混合单位 · 未标准化",
+      "preprocessing": "none",
+      "space": "混合单位数值空间（income 万元，balance 元）",
+      "n_samples": 300,
+      "cluster_counts": [
+        141,
+        48,
+        111
+      ],
+      "inertia": 720562609170.889,
+      "silhouette": 0.7072379530570799,
+      "n_iter": 2,
+      "centers_original_units": [
+        {
+          "cluster": 0,
+          "income_wan": 7.576879432624109,
+          "balance_wan": 1.8487234042553042,
+          "balance_yuan": 18487.234042553042
+        },
+        {
+          "cluster": 1,
+          "income_wan": 40.64395833333333,
+          "balance_wan": 49.86562499999998,
+          "balance_yuan": 498656.2499999998
+        },
+        {
+          "cluster": 2,
+          "income_wan": 19.614864864864863,
+          "balance_wan": 13.418468468468468,
+          "balance_yuan": 134184.68468468467
+        }
+      ],
+      "warnings": [],
+      "display_mapping_to_D": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "id": "C",
+      "data_file": "mall_customers_sim.csv",
+      "description": "sim 万元 · StandardScaler",
+      "preprocessing": "StandardScaler",
+      "space": "标准化空间（z 分数）",
+      "n_samples": 300,
+      "cluster_counts": [
+        126,
+        50,
+        124
+      ],
+      "inertia": 62.79121200455589,
+      "silhouette": 0.6902386829838079,
+      "n_iter": 4,
+      "centers_original_units": [
+        {
+          "cluster": 0,
+          "income_wan": 6.105634920634925,
+          "balance_wan": 1.4516666666666698,
+          "balance_yuan": 14516.666666666697
+        },
+        {
+          "cluster": 1,
+          "income_wan": 41.583600000000004,
+          "balance_wan": 48.350199999999994,
+          "balance_yuan": 483501.99999999994
+        },
+        {
+          "cluster": 2,
+          "income_wan": 18.935564516129034,
+          "balance_wan": 12.445564516129032,
+          "balance_yuan": 124455.64516129032
+        }
+      ],
+      "warnings": [],
+      "display_mapping_to_D": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "id": "D",
+      "data_file": "mall_customers_yuan.csv",
+      "description": "yuan 混合单位 · StandardScaler",
+      "preprocessing": "StandardScaler",
+      "space": "标准化空间（z 分数）",
+      "n_samples": 300,
+      "cluster_counts": [
+        126,
+        50,
+        124
+      ],
+      "inertia": 62.79121200455589,
+      "silhouette": 0.6902386829838079,
+      "n_iter": 4,
+      "centers_original_units": [
+        {
+          "cluster": 0,
+          "income_wan": 6.105634920634925,
+          "balance_wan": 1.4516666666666687,
+          "balance_yuan": 14516.666666666686
+        },
+        {
+          "cluster": 1,
+          "income_wan": 41.583600000000004,
+          "balance_wan": 48.3502,
+          "balance_yuan": 483502.0
+        },
+        {
+          "cluster": 2,
+          "income_wan": 18.935564516129034,
+          "balance_wan": 12.445564516129032,
+          "balance_yuan": 124455.64516129032
+        }
+      ],
+      "warnings": [],
+      "display_mapping_to_D": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "pair": "A-B",
+      "config_a": "A",
+      "config_b": "B",
+      "ari": 0.8074244639759084
+    },
+    {
+      "pair": "A-C",
+      "config_a": "A",
+      "config_b": "C",
+      "ari": 0.9717301681725511
+    },
+    {
+      "pair": "A-D",
+      "config_a": "A",
+      "config_b": "D",
+      "ari": 0.9717301681725511
+    },
+    {
+      "pair": "B-C",
+      "config_a": "B",
+      "config_b": "C",
+      "ari": 0.7827024523579696
+    },
+    {
+      "pair": "B-D",
+      "config_a": "B",
+      "config_b": "D",
+      "ari": 0.7827024523579696
+    },
+    {
+      "pair": "C-D",
+      "config_a": "C",
+      "config_b": "D",
+      "ari": 1.0
+    }
+  ],
+  "c_d_identical": true,
+  "notes": [
+    "SSE（inertia）计算空间：A 为 income 万元、balance 万元两列的平方距离和；B 为 income 万元、balance 元混合单位数值空间的平方距离和；C/D 为标准化空间的平方距离和。禁止跨尺度直接比较 SSE 大小来判断模型优劣。",
+    "silhouette 在各自建模空间计算，同样不可跨空间直接排名。",
+    "n_iter_ 小于 max_iter 只表示本次迭代未触上限，不能单独据此宣称已严格证明收敛。",
+    "颜色按最大重叠匹配对齐到 D 簇，仅用于可视化；原始标签保存在 labels_all.csv，未改写。",
+    "A 与 B 的差异对应单位变化；C 与 D 的差异对应标准化后的单位不变性检查。",
+    "本实验不加入 age，age 仅用于画像描述。"
+  ],
+  "outputs": [
+    "run_meta.json",
+    "labels_all.csv",
+    "metrics.csv",
+    "profiles_original_units.csv",
+    "ari_matrix.csv",
+    "contingency_tables.csv",
+    "overlap_match.csv",
+    "balance_conversion_differences.csv",
+    "fig_compare_4panel.png"
+  ]
+}

@@ -1,0 +1,7 @@
+# 本次实际运行环境；Python 3.13.12。仅列依赖，不代表本轮执行了安装。
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+matplotlib==3.11.0
+scipy==1.17.1
+tabulate==0.10.0

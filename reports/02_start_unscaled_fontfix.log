@@ -1,0 +1,19 @@
+﻿起点版（未标准化）字体修复后运行日志
+运行时间：2026-11-19 14:41:33
+完整命令：C:\Users\zyl66\AppData\Local\Programs\Python\Python313\python.exe -X utf8 "generated\02_起点版_kmeans.py"
+工作目录：
+D:\zyl66\studyclass_related\人工智能程序设计与实践\lesson09-cluster
+退出码：0
+
+----- 标准输出 -----
+本次绘图使用中文字体：Microsoft YaHei
+已保存 outputs/03_clustered_scatter.png
+
+           人数   平均年龄   平均收入   平均余额  平均持有产品数
+cluster                                   
+0        125  21.34   6.09   1.36     1.96
+1         50  46.72  40.84  48.97     1.98
+2        125  37.46  19.15  12.21     2.17
+已保存 generated/mall_report.md
+
+----- 标准错误 -----

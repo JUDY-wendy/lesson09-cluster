@@ -1,0 +1,12 @@
+数据哈希基线记录
+
+计算时间：2026-11-19 14:04:09
+算法：SHA-256
+
+文件：data/mall_customers_sim.csv
+SHA256：13DC15593DB7EBD5349982AE83EC2439DEC9461ACDD3984493F1E10C84EEDF9F
+
+文件：data/mall_customers_yuan.csv
+SHA256：060D349F4E7FD44DF6B97BF76C5876FF38A7570075C491730CF9361B4344EA07
+
+说明：以上仅为当前项目内数据的基线记录，尚不代表已与教师原包核验一致；本次未修改任何 CSV 文件。
