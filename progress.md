@@ -74,3 +74,5 @@ AI产物包括实验脚本、图表、网页与报告草稿。本人验证包括
 本次材料存在三簇age课堂演示与四簇account_age_months Word版本差异，采用口径已在报告开头说明。原任务书要求当次课后48小时内push；实际提交入口、补交/延期口径与推送时间尚待本人确认，不套用HW2的12/4，也不倒填提交时间。
 
 [正式报告](reports/第九课客户分群自主实践报告.md)｜[研究报告](reports/independent_research.md)｜[工具验收](reports/tool_acceptance.md)
+
+版本记录（2026-11-21）：本人提供的独立仓库为https://github.com/JUDY-wendy/lesson09-cluster；已在Trae按当前真实日期整理三个本地检查点提交及O9-step1/2/3标签，未倒填课堂日期。具体SHA见[Git提交记录](reports/git_submission.md)。本地commit不等于push，当前尚待推送并读回核验。
